@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#index{
+   height: 100%;
+   width: 100%;
+   position: absolute;
+}
+
+.top-container{
+    height: 5%;
+    width: inherit;
+    position: relative;
+}
+
+.left-container{
+    height: 90%;
+    width: 15%;
+    float: left;
+    position: relative;
+}
+
+.menu-items{
+    position: relative;
+    font-size: smaller;
+    font-family: sans-serif;
+    padding-top: 50%;
+    color: black;
+}
+
+.dashboard-menu-item{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    position: relative;
+    display: inline-block;
+    padding-left: 10%;
+    width: 100%;
+}
+
+.dashboard-menu-item:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+.dispatch-menu-item{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    position: relative;
+    display: inline-block;
+    padding-left: 10%;
+    width: 100%;
+}
+
+.dispatch-menu-item:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+.return-menu-item{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    position: relative;
+    display: inline-block;
+    padding-left: 10%;
+    width: 100%;
+}
+
+.return-menu-item:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+.shipment-menu-item{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    position: relative;
+    display: inline-block;
+    padding-left: 10%;
+    width: 100%;
+}
+
+.shipment-menu-item:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+.left-right-divider{
+    height: 90%;
+    width: 1%;
+    position: relative;
+    float: left;
+}
+
+#index .divider{
+    position: relative;
+    width: 2%;
+    height: 100%;
+    background-color: deepskyblue;
+}
+
+.right-container{
+    height: 90%;
+    width: 84%;
+    float: right;
+    position: relative;
+}
+
